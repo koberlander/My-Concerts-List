@@ -1,0 +1,32 @@
+{
+  "name": "Music-Icons",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.7.2"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koberlander/Music-Icons-Concert"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Kristin Oberlander",
+  "contributors": [],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
