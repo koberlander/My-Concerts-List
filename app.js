@@ -7,8 +7,8 @@ server.listen(3000);
 
 app.use(express.static('public'));
 
-app.get('/', function (req, res) {
-  res.sendfile(__dirname + '/index.html');
+app.get('/notes', function(req, res) {
+  res.json([{}, {}]);
 });
 
 io.on('connection', function (socket) {
